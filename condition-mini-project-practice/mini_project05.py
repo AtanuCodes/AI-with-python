@@ -1,4 +1,4 @@
-# traditional tea way
+# traditional if-else way
 # tea_amount = int(input("What is your order amount?"))
 # if tea_amount >= 300:
 #     print(f"Your delivery is free! Total amount is ${tea_amount}.")

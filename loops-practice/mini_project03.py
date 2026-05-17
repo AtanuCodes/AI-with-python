@@ -24,7 +24,7 @@ while True:
         else :
             break
     except ValueError:
-        print(f'enter value error!')
+        print(f'value error!')
 
 print(f'First pattern:')
 for i in range(1, n+1):

@@ -1,6 +1,7 @@
 # Reading a massive log file and extracting error messages
 # Without generator comprehension, load entire file into memory is bad approch
 
+
 # Simulating a large log file 
 log_lines = [
     "INFO: User logged in",
@@ -15,7 +16,7 @@ log_lines = [
 # This creates a GENERATOR, NOT a list. It yields values one at a time on demand.
 error_messages = (line for line in log_lines if "ERROR" in line)
 
-# WHY USE GENERATOR? 
+# WHY GENERATOR? 
 # Memory efficiency: Doesn't store all results at once, yields one item at a time
 # Performance: Lazy evaluation - only computes when you ask for next item
 # Great for: Large files, API streams, infinite sequences, data pipelines

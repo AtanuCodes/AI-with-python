@@ -18,6 +18,7 @@ def tea_inventory(role):
 
 tea_inventory('user')
 tea_inventory('admin')
+
 # tea_inventory = require_admin(tea_inventory)
 # print(tea_inventory('user'))
 # print(tea_inventory('admin'))

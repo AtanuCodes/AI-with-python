@@ -22,7 +22,7 @@ responses = {
 
 "hello": "Hi there! How can I help you today?",
 "hi": "Hi there! How can I help you today?",
-"who are you": "I’m your friendly AI Study Buddy.",
+"who are you": "I’m your AI Study Buddy.",
 "how are you": "I’m just code, but I feel great when you run me!",
 "motivate me": "Keep going! Every bug you fix makes you a bettercoder 💪",
 "python": "Python is powerful — it can do AI, automation, and much more!",
@@ -43,8 +43,8 @@ def get_response(user_input):
 while True:
     user_input = input("You: ")
     if user_input.lower() == "bye":
-        print("AI Study Buddy: " + responses["bye"])
+        print("AI 🤖: " + responses["bye"])
         break
     response = get_response(user_input)
-    print("AI Study Buddy: " + response)
+    print("AI 🤖: " + response)
 

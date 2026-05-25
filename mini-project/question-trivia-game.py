@@ -20,15 +20,20 @@ questions = {
     "What does the len() function return?": "length",
     "What is the result of 10 // 3 in Python?": "3"
 }
+
 score = 0
 questions_list = list(questions.keys())
-random.shuffle(questions_list)
-for question in questions_list:
-    answer = input(question + " ")
+
+random. shuffle(questions_list)
+
+for i, question in enumerate(questions_list, start=1):
+    answer = input(f'Question {i}: {question} \nYour answer: ')
     if answer.lower() == questions[question].lower():
-        print("Correct!")
-        score += 1
+        print('Correct Ans.')
+        score+=1
     else:
-        print(f"Wrong! The correct answer is: {questions[question]}")
-print(f"Your final score is: {score}/{len(questions)}")
+        print(f'Wrong ans! The correct ans is: {questions[question]}')
+
+print(f'Your Final Score is - {score}/{len(questions)}')
+
 

@@ -1,7 +1,4 @@
-# Designed a smart chatbot using Python fundamentals (loops, conditionals,
-# and dictionaries). Implemented a keyword-matching logic to make it
-# behave like a real AI assistant and built modular functions for reusability.
-# (Future Plan: connect to OpenAI API for real AI responses.)
+
 
 import datetime
 
@@ -24,12 +21,12 @@ responses = {
 "hi": "Hi there! How can I help you today?",
 "who are you": "I’m your AI Study Buddy.",
 "how are you": "I’m just code, but I feel great when you run me!",
-"motivate me": "Keep going! Every bug you fix makes you a bettercoder 💪",
+"motivate me": "Keep going! Every bug you fix makes you a bettercoder.",
 "python": "Python is powerful — it can do AI, automation, and much more!",
-"sad": "Don’t worry! Even code breaks sometimes, but it always runs again 😊",
+"sad": "Don’t worry! Even code breaks sometimes, but it always runs again.",
 "happy": "That’s great to hear! Keep that positive energy going🎉",
 "time": f"The current time is {datetime.datetime.now().strftime('%H:%M:%S')}",
-"bye": "Goodbye! Keep learning and keep smiling 😊"
+"bye": "Goodbye! Keep learning and keep smiling."
 
 }
 
